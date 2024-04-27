@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(196, 74, 135);
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+img{
+    height: 400px;
+    cursor: pointer;
+}
+
+p{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.historia{
+    background-color: brown;
+    padding: 20px;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.display{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.display2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* Mobile firs */
+/* min-width > max-width */
+
+
+/*   @media only screen and (min-width: 1024px) {
+    img{
+       height: 200px;
+    }
+
+    p{
+        font-size: 25px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    h2{
+        font-size: 35px;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .display{
+        flex-direction: column;  
+        gap: 30px; 
+        align-items: center;
+    }
+
+    .display2{
+        flex-direction: column;
+        gap: 30px;  
+        align-items: center;
+    }
+
+    img{
+        height: 500px;
+        width: 700px;
+        
+    }
+
+}
+
+
+@media only screen and (max-width: 767px) {
+    
+}
+
+*/
+
+@media (max-width: 1352px) {
+   
+    .display{
+       flex-direction: column;
+       align-items: center;
+       gap: 40px;
+    }
+
+    .display2{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    img{
+        height: 800px;
+    }
+
+}
+
+@media (max-width: 1170px) {
+   
+    .display{
+       flex-direction: column;
+       align-items: center;
+       gap: 40px;
+    }
+
+    .display2{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    img{
+        height: 700px;
+    }
+
+}
+
+
+
+@media (max-width: 712px) {
+   
+    .display{
+       flex-direction: column;
+       align-items: center;
+       gap: 40px;
+    }
+
+    .display2{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    img{
+        height: 450px;
+    }
+
+}
+
+@media (max-width: 536px) {
+   
+    .display{
+       flex-direction: column;
+       align-items: center;
+       gap: 40px;
+    }
+
+    .display2{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    img{
+        height: 330px;
+    }
+
+}
+
+
